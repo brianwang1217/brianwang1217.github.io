@@ -5,78 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Brian Wang</title>
+        <style>
+        </style>
         
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" type="text/css" href="bower_components/loaders.css/loaders.min.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
     
-<body background="html/images/background.png" ><div>
-    <center><big><b>Hi, I'm Brian.</b></big></center>
-  <hr width="70%">
-  <h2>
-  <a href = "https://github.com/brianwang1217" target = "_self"><center>
-        <img src="/html/images/github.png" border = "3" width = "100" height = "50"/>
-  </a>
-  <a href = "https://linkedin.com/in/brianwang1217" target = "_self">
-        <img src="/html/images/linkedin.png" border = "3" width = "50" height = "50"/></center>
-  </a>
-  </h2>
+<body id ="background">
+  <div class="row">
   <header>
      <div class="header-content">
-         <div class="header-content-inner"><center>
-             <h1 id="homeHeading"><font color="black">Brian Wang</font></h1>
-             <h1><small>Computer Science and Statistics</small></h1></center>
-         </div>
-     </div>
+         <div id="left">
+          <p class="header-name"><font color="black">I'm Brian.</font></p>
+          <p class="header-label">I study CS and Stats at UIUC. Welcome!</p>
+          <p class="intro-links">
+          <a href="https://github.com/brianwang1217" target="_blank"><i class="fa fa-github" style="font-size:36px;color:purple"></i></a>
+          <a style="padding-left:10px;" href="https://linkedin.com/in/brianwang1217" target="_blank"><i class="fa fa-linkedin" style="font-size:36px;color:purple"></i></a>
+          <a style="padding-left:10px;" href="https://drive.google.com/file/d/1zJZkB_T89gZip78nhRFaierL7SJzuY07/view?usp=sharing"><i class="fa fa-file-text" style="font-size:30px;color:purple"></i></a>
+          <!-- perhaps i can find a way to find a more suitable icon later??>
+          <a href="mailto:brianwang1217@gmail.com" target="_blank"><i class="material-icons" style="font-size:44px;color:purple">email</i></a>
+          <-->
+          </p>
+        </div>
+        <div id="right">
+          
+      </div>
+      <div class="clear">
+        <div class="about-me"><center>
+            <h2 class="about-me-title">About Me</h2>
+            <hr width = "20%">
+            <p class="introduction">I was born and raised in Saratoga, California, and am attending University of Illinois at Urbana-Champaign as an undergraduate student. As a Computer Science and Statistics major, I hope to explore my interests in data science, cloud computing, and artificial intelligences through formal coursework as well as <a target="_blank" href="projects.html">personal projects</a>.</p>
+
+            <p class="informal">In my free time, I enjoy playing sports such as tennis, frisbee, and basketball, watching movies, playing League of Legends, and reading.</p>
+
+            <p class="contact">If you would like to learn more about me or would like to contact me, feel free to visit my <a target="_blank" href="https://linkedin.com/in/brianwang1217">LinkedIn</a>, or check out my <a target="_blank" href="https://drive.google.com/file/d/1zJZkB_T89gZip78nhRFaierL7SJzuY07/view?usp=sharing">resume</a>.</p>
+          </center>
+          </div>
+    </div>
   </header>  
   </div>
 
-  <section>
-    <div><center>
-      <h2>About Me</h2>
-        <hr width = "20%">
-        <p>I was born and raised in Saratoga, California, and am attending University of Illinois at Urbana-Champaign as an undergraduate student. As a Computer Science and Statistics major, I hope to explore my interests in data science, cloud computing, and artificial intelligences through formal coursework as well as personal projects.</p>
-
-        <p>In my free time, I enjoy playing sports such as tennis and basketball, watching movies, playing League of Legends, and reading.</p>
-
-        <p>If you would like to learn more about me or would like to contact me, feel free to visit my <a target="_blank" href="https://linkedin.com/in/brianwang1217">LinkedIn</a>, or check out my <a target="_blank" href="https://drive.google.com/file/d/1zJZkB_T89gZip78nhRFaierL7SJzuY07/view?usp=sharing">resume</a>.</p>
-      </center></div>
-  </section>
-
-  <div>
-    <a href = "projects.html">Check out some of my projects here!</a>
-  </div>
-  <div onclick="changeColor()" class="skills" id ="skills">
+  <!--reptitive- maybe later> 
+  <div class="skills" id ="skills">
     <h1>Current Skillset:</h1></center>
     <hr width="70%">
     <div class="content">
       <ul type="circle">
         <li><u>Languages:</u> HTML5, JavaScript, Java, Python </li>
         <li><u>Databases:</u> SQlite</li>
-        <li><u>Other stuff:</u> Unity3D, Blender</li>
-        <li><u>Currently learning:</u> RoR, Scala, Scheme</li>
+        <li><u>Other stuff:</u> Unity3D</li>
+        <li><u>Currently learning:</u> TF, nltk, Scala, Scheme</li>
       </ul>
     </div>
   </div>
-
-  <div class="links">
-    <h1>links</h1>
-    <hr width="35%">
-      <div class="link">
-       <a href="https://github.com/brianwang1217"><img style="border-radius:0%"src="projects/github.png"></a>
-      </div>
-  <div class="link">
-    <a href="https://www.linkedin.com/in/brianwang1217"><img src="projects/linkedin.png"></a>
-  </div>
-  <!--><div class="link">
-    <a href="http://devpost.com/KushalTirumala"><img src="projects/devpost.jpg"></a>
-    </div><-->
-  <div class="link">
-    <a href="mailto:brianwang1217@gmail.com"><img src="projects/mail.png"></a>
-  </div>
-  </div>
+  <-->
 
 <div class ="header" id="animate-area" style="height:150px">
     
