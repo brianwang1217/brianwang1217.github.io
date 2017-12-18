@@ -48,3 +48,17 @@ p.intro-links{
 	padding-left:3rem;
 	padding-top:1rem;
 }
+
+#about-me{
+	font-size:20px;
+	font-family: "Courier New", Courier, monospaced;
+	font-color:grey;
+}
+.about-link{
+	padding-top:6rem;
+	padding-left:20rem;
+	font-size:26px;
+	font-family:"heltvetica Header", Helvetica, monospaced;
+	font-color:grey;
+	opacity:.7;
+}
