@@ -1,3 +1,16 @@
+/*
+char for down arrow: &#8964;
+learn scrolling animation
+fix background(cut off at border)
+mail contact info
+*/
+
+.column {
+	float: left;
+    padding: 15px;
+    height: 300px;
+} 
+
 #left {
 	width:40%;
 	float:left;
@@ -17,16 +30,16 @@
 #background{
 	width:100%;
 	height:100%;
-	background-image: url("/html/images/zzbackground.png");
+	background-image: url("/html/images/background.png");
     background-repeat: repeat-x;
 }
 
 a:link,
 a:visited{
-	color:blue;
+	color:orange;
 }
 a:hover{
-	color:red;
+	color:lightgrey;
 }
 
 .header-name{
@@ -47,5 +60,18 @@ p.intro-links{
 	margin:0;
 	padding-left:3rem;
 	padding-top:1rem;
+}
+#about-me{
+	font-size:20px;
+	font-family: "Courier New", Courier, monospaced;
+	font-color:grey;
+}
+.about-link{
+	padding-top:6rem;
+	padding-left:20rem;
+	font-size:26px;
+	font-family:"heltvetica Header", Helvetica, monospaced;
+	font-color:grey;
+	opacity:.7;
 }
 
