@@ -1,16 +1,3 @@
-/*
-char for down arrow: &#8964;
-learn scrolling animation
-fix background(cut off at border)
-mail contact info
-*/
-
-.column {
-	float: left;
-    padding: 15px;
-    height: 300px;
-} 
-
 #left {
 	width:40%;
 	float:left;
@@ -30,16 +17,16 @@ mail contact info
 #background{
 	width:100%;
 	height:100%;
-	background-image: url("/html/images/background.png");
+	background-image: url("/html/images/zzbackground.png");
     background-repeat: repeat-x;
 }
 
 a:link,
 a:visited{
-	color:orange;
+	color:blue;
 }
 a:hover{
-	color:lightgrey;
+	color:red;
 }
 
 .header-name{
@@ -61,17 +48,3 @@ p.intro-links{
 	padding-left:3rem;
 	padding-top:1rem;
 }
-#about-me{
-	font-size:20px;
-	font-family: "Courier New", Courier, monospaced;
-	font-color:grey;
-}
-.about-link{
-	padding-top:6rem;
-	padding-left:20rem;
-	font-size:26px;
-	font-family:"heltvetica Header", Helvetica, monospaced;
-	font-color:grey;
-	opacity:.7;
-}
-
